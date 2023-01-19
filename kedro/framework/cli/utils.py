@@ -278,7 +278,7 @@ class KedroCliError(click.exceptions.ClickException):
 
 
 def _clean_pycache(path: Path):
-    """Recursively clean all __pycache__ folders from `path`.
+    """Recursively clean all __pycache__ folders from ``path``.
 
     Args:
         path: Existing local directory to clean __pycache__ folders from.
