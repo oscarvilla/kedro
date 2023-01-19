@@ -1,6 +1,6 @@
 # Package an entire Kedro project
 
-This section explains how to build your project documentation, and how to bundle your entire project into a Python package.
+This section explains how to build your project documentation and how to bundle your entire project into a Python package.
 
 Kedro also has an advanced feature which supports packaging on a pipeline level allowing you share and reuse pipelines across projects! To read more about this please look at the [section on micro-packaging](../nodes_and_pipelines/micro_packaging.md).
 
@@ -32,7 +32,7 @@ To package your project, run the following in your project root directory:
 kedro package
 ```
 
-Kedro builds the package into the `dist` folder of your project, and creates one `.egg` file and one `.whl` file, which are [Python packaging formats for binary distribution](https://packaging.python.org/).
+Kedro builds the package into the `dist` folder of your project and creates one `.egg` file and one `.whl` file, which are [Python packaging formats for binary distribution](https://packaging.python.org/).
 
 The resulting package only contains the Python source code of your Kedro pipeline, not any of the `conf`, `data` and `logs` subfolders. This means that you can distribute the project to run elsewhere, such as on a separate computer with different configuration information, dataset and logging locations.
 
