@@ -20,7 +20,7 @@ This guide is a practical description of:
 
 ## Before you start: development set up
 
-To work on the Kedro codebase, you will need to be set up with Git, and Make.
+To work on the Kedro codebase, you will need to be set up with Git and Make.
 
 ```{note}
 If your development environment is Windows, you can use the `win_setup_conda` and `win_setup_env` commands from [Circle CI configuration](https://github.com/kedro-org/kedro/blob/main/.circleci/config.yml) to guide you in the correct way to do this.
