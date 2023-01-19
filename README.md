@@ -12,7 +12,7 @@
 
 ## What is Kedro?
 
-Kedro is an open-source Python framework to create reproducible, maintainable, and modular data science code. It uses software engineering best practices to help you build production-ready data engineering and data science pipelines.
+Kedro is an open-source Python framework to create reproducible, maintainable and modular data science code. It uses software engineering best practices to help you build production-ready data engineering and data science pipelines.
 
 Kedro is hosted by the [LF AI & Data Foundation](https://lfaidata.foundation/).
 
@@ -30,7 +30,7 @@ It is also possible to install Kedro using `conda`:
 conda install -c conda-forge kedro
 ```
 
-Our [Get Started guide](https://kedro.readthedocs.io/en/stable/get_started/install.html) contains full installation instructions, and includes how to set up Python virtual environments.
+Our [Get Started guide](https://kedro.readthedocs.io/en/stable/get_started/install.html) contains full installation instructions and includes how to set up Python virtual environments.
 
 
 ## What are the main features of Kedro?
@@ -42,7 +42,7 @@ Our [Get Started guide](https://kedro.readthedocs.io/en/stable/get_started/insta
 | Feature | What is this? |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Project Template | A standard, modifiable and easy-to-use project template based on [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science/). |
-| Data Catalog | A series of lightweight data connectors used to save and load data across many different file formats and file systems, including local and network file systems, cloud object stores, and HDFS. The Data Catalog also includes data and model versioning for file-based systems. |
+| Data Catalog | A series of lightweight data connectors used to save and load data across many different file formats and file systems, including local and network file systems, cloud object stores and HDFS. The Data Catalog also includes data and model versioning for file-based systems. |
 | Pipeline Abstraction | Automatic resolution of dependencies between pure Python functions and data pipeline visualisation using [Kedro-Viz](https://github.com/kedro-org/kedro-viz). |
 | Coding Standards | Test-driven development using [`pytest`](https://github.com/pytest-dev/pytest), produce well-documented code using [Sphinx](http://www.sphinx-doc.org/en/master/), create linted code with support for [`flake8`](https://github.com/PyCQA/flake8), [`isort`](https://github.com/PyCQA/isort) and [`black`](https://github.com/psf/black) and make use of the standard Python logging library. |
 | Flexible Deployment | Deployment strategies that include single or distributed-machine deployment as well as additional support for deploying on Argo, Prefect, Kubeflow, AWS Batch and Databricks. |
@@ -63,7 +63,7 @@ Further documentation is available for more advanced Kedro usage and deployment.
 ## Why does Kedro exist?
 
 Kedro is built upon our collective best-practice (and mistakes) trying to deliver real-world ML applications that have vast amounts of raw unvetted data. We developed Kedro to achieve the following:
- - To address the main shortcomings of Jupyter notebooks, one-off scripts, and glue-code because there is a focus on
+ - To address the main shortcomings of Jupyter notebooks, one-off scripts and glue-code because there is a focus on
   creating **maintainable data science code**
  - To enhance **team collaboration** when different team members have varied exposure to software engineering concepts
  - To increase efficiency, because applied concepts like modularity and separation of concerns inspire the creation of
