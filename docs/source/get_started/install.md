@@ -31,7 +31,7 @@ If you see an error message or need to install a later version of Python, you ca
 You will need to install `git` onto your machine if you do not already have it. To check if it is installed:
 
 ```bash
-git -v
+git --version
 ```
 
 You should see the version of `git` available or an error message if it is not installed. You can download it from the official  [`git`](https://git-scm.com/) website.
